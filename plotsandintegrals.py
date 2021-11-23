@@ -15,20 +15,20 @@ warnings.filterwarnings("ignore")
 def integrate_with_graph():
     def g(x):
         func = eval(abc)
-        return func
-    print()
-    print("Enter the function you want to see graphed and INTEGRATED!")
-    aba = input()
-    abc = aba.replace("^", "**")
-    print("Enter the lower bound: ")
-    low = float(input())
-    print("Enter the upper bound: ")
-    upp = float(input())
-    if(("1/x" in aba or aba == "x^-1") and (low <= 0 or upp <= low+1)):
-        return("This integral is divergent. It cannot be computed as of now.")
-    x = np.linspace(int(floor(low))-8, int(ceil(upp))+8, 20000)
-    if("ln" in aba or "log" in aba):
-        x = np.linspace(int(floor(low))+1, int(ceil(upp))+8, 20000)
+        return func wasssup 
+    print()ert
+    print("Entyjer the function you want to see graphed and INTEGRATED!")
+    aba = input(sdf)
+    abc = aba.replafgce("^", "**")
+    print("Enter the hlower bound: ")
+    low = float(input(dfg))
+    print("Enter the uppesdr bound: ")
+    upp = float(input())d
+    if(("1/x" in aba or afdba == "x^-1") and (low <= 0 or upp <= low+1)):
+        return("This integrfal is divergent. It cannot be computed as of now.")
+    x = np.linspace(int(floodfr(low))-8, int(ceil(upp))+8, 20000)
+    if("ln" in aba or "log" indf aba):
+        x = np.linspace(int(floodfgr(low))+1, int(ceil(upp))+8, 20000)
     #x = range(int(floor(low))-4, int(ceil(upp))+4)
     # Get the corresponding y values from the function
     y = [g(a) for a in x]
